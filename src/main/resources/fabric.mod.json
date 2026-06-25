@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "bloodmagic",
+  "version": "${version}",
+  "name": "Blood Magic",
+  "description": "Sacrifice hearts for powerful temporary buffs.",
+  "authors": ["gamingartum"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["dev.gamingartum.bloodmagic.BloodMagic"],
+    "client": ["dev.gamingartum.bloodmagic.client.BloodMagicClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
