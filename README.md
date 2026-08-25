@@ -71,7 +71,7 @@ Everything is rendered by the vanilla client from ordinary server packets:
 
 **Steps:**
 1. Install Fabric Loader for Minecraft 26.2 on the **server**
-2. Drop `bloodmagic-0.1.1.jar` into the server's `mods/` folder
+2. Drop `bloodmagic-0.3.0.jar` into the server's `mods/` folder
 3. Drop `fabric-api-0.152.2+26.2.jar` into `mods/` as well
 4. Start the server
 
@@ -95,4 +95,4 @@ Connecting players change nothing on their end.
 ./gradlew build
 ```
 
-Output: `build/libs/bloodmagic-0.1.1.jar`. Requires Java 25+ and, on a first build, an internet connection for Gradle to fetch Minecraft and mappings.
+Output: `build/libs/bloodmagic-0.3.0.jar`. Requires Java 25+ and, on a first build, an internet connection for Gradle to fetch Minecraft and mappings.
