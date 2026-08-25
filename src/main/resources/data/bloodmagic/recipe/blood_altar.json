@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "NRN",
+    "RCR",
+    "NRN"
+  ],
+  "key": {
+    "N": "minecraft:nether_bricks",
+    "R": "minecraft:redstone",
+    "C": "minecraft:cauldron"
+  },
+  "result": {
+    "id": "bloodmagic:blood_altar",
+    "count": 1
+  }
+}
