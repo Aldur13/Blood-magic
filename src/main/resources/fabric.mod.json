@@ -3,13 +3,16 @@
   "id": "bloodmagic",
   "version": "${version}",
   "name": "Blood Magic",
-  "description": "Sacrifice hearts for powerful temporary buffs.",
-  "authors": ["gamingartum"],
+  "description": "Sacrifice hearts for powerful temporary buffs. Server-side only: vanilla clients need no mod to play.",
+  "authors": [
+    "gamingartum"
+  ],
   "license": "MIT",
-  "environment": "*",
+  "environment": "server",
   "entrypoints": {
-    "main": ["dev.gamingartum.bloodmagic.BloodMagic"],
-    "client": ["dev.gamingartum.bloodmagic.client.BloodMagicClient"]
+    "main": [
+      "dev.gamingartum.bloodmagic.BloodMagic"
+    ]
   },
   "depends": {
     "fabricloader": ">=0.19.3",

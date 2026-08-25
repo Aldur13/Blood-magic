@@ -10,12 +10,10 @@ repositories {
 }
 
 loom {
-	splitEnvironmentSourceSets()
-
+	// No splitEnvironmentSourceSets(): this mod is server-side only and has no client code.
 	mods {
 		"bloodmagic" {
 			sourceSet sourceSets.main
-			sourceSet sourceSets.client
 		}
 	}
 }
